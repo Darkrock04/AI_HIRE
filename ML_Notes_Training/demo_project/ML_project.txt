@@ -1,0 +1,15 @@
+## my main project for resume ML project 
+ - 1. The RAG (Retrieval-Augmented Generation) System 
+The Project: "DocuChat" - An Enterprise Document Assistant. Instead of relying on ChatGPT's general knowledge, you build a system where users can upload private company PDFs, and the AI accurately answers questions based only on those documents, citing its sources.
+
+Tech Stack: Python, LangChain or LlamaIndex, Vector Database (ChromaDB or Pinecone), OpenAI API / Local LLM (Ollama), Streamlit frontend.
+Why it gets you hired: Every single major company is currently trying to build RAG systems over their private internal data. Knowing how to do this makes you immediately hirable.
+
+
+##  Basic  model building understanding 
+ - i am new to the ml training models so suggest me a basic project for understanding ml projects 
+ - $ step 1:   to build a prject to get a basic idea to understanding building  a ml model 
+ - $ step 2:  we will use kaggle for date  set and we will train the model in google colab 
+ - $ step 3:  u need to make a sub folder name ml_learning in that u need to generate code and it's work in text  like this {Sentimental_Analysis_Using_BOW.ipynb} format 
+ #### this should cover my understanding about the ml model building process #### 
+ 
