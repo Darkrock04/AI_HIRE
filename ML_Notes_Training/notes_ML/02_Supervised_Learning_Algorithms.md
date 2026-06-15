@@ -25,7 +25,7 @@ Here are the most fundamental Supervised Learning algorithms you need to know.
 *   **Best for:** Simple relationships where variables increase or decrease together linearly.
 
 ### 2. Logistic Regression
-*   **Concept:** Despite the name, this is a **Classification** algorithm. It draws an S-shaped curve (Sigmoid function) rather than a straight line.
+*   **Concept:** Despite the name, this is a **Classification** algorithm. It draws a straight line (decision boundary) to separate classes, and then maps the outputs into probabilities using an S-shaped curve (Sigmoid function).
 *   **Type:** Classification (primarily Binary - 0 or 1).
 *   **How it works:** It calculates the *probability* that a data point belongs to a certain class. If the probability is > 50%, it assigns it to Class 1. If < 50%, it assigns it to Class 0.
 *   **Best for:** Binary classification like Credit Card fraud detection or Spam detection.

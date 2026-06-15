@@ -22,7 +22,7 @@ Similar to ANNs, we compile using an Optimizer (Adam) and a Loss function.
 *   Training RNNs is computationally expensive and slow compared to standard ANNs because sequences must be processed step-by-step.
 
 ## Step 5: Evaluation
-We evaluate performance. For text generation, we might look at Perplexity; for sequence classification, standard metrics like Accuracy and F1-Score apply.
+We evaluate performance using standard metrics like Accuracy and F1-Score for sequence classification.
 
 ---
 > 👉 **Next Step:** Open `RNN_workflow.ipynb` to see how an LSTM is built for text classification!

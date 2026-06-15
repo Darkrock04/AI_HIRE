@@ -28,4 +28,4 @@ We train the model over multiple **Epochs** (full passes through the data), feed
 We evaluate the model on the unseen test data using metrics like Accuracy, Precision, Recall, and the Confusion Matrix. Finally, we can use `model.predict()` to make predictions on brand new data.
 
 ---
-> 👉 **Next Step:** Open `ANN_workflow.ipynb` to run the code and train an ANN yourself!
+> 👉 **Next Step:** Open `ANN_workflow.ipynb` for the basics, and then dive into `ANN_Model_Building_Keras.ipynb` to see advanced concepts like Dropout and Callbacks in action!

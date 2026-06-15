@@ -2,6 +2,11 @@
 
 Welcome! This guide outlines the recommended progression through the Jupyter Notebooks in this folder to build your expertise from basic LLM interactions to advanced Agentic workflows.
 
+## Step 0: Conceptual Introduction
+Before writing code, understand what LangChain actually is and why it's the industry standard for GenAI.
+*   👉 **Notebook:** `intro_to_langchain.ipynb`
+*   **Goal:** Learn the core components: Models, Prompts, Chains (LCEL), Memory, and Retrieval.
+
 ## Step 1: Basics & API Providers
 Start by understanding how to connect to fast, cloud-based LLMs.
 *   👉 **Notebook:** `langchain_groq_intro.ipynb`

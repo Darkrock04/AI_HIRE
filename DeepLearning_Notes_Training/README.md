@@ -1,7 +1,7 @@
 # Deep Learning (DL) 🧠
 
 **What is Deep Learning?**
-Deep Learning is a more advanced subset of Machine Learning. Instead of simple mathematical formulas, it uses **Artificial Neural Networks**—algorithms inspired by the structure of the human brain. We use Deep Learning when the data is incredibly complex, like images, audio, or large paragraphs of text.
+Deep Learning is a more advanced subset of Machine Learning. Instead of simple mathematical formulas, it uses **Artificial Neural Networks**—algorithms inspired by the structure of the human brain. We use Deep Learning when the data is incredibly complex, like large paragraphs of text or massive numerical datasets.
 
 ## How Does Training Work Here?
 Training a Neural Network is more complex than traditional ML. It happens in cycles:

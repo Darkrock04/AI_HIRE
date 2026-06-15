@@ -16,4 +16,4 @@ Building GenAI applications requires a completely different toolset than ML or D
 *   **`langchain`:** The ultimate framework for GenAI. It helps us easily connect to LLMs, format Prompts, and give the AI "Memory" so it remembers past conversations.
 *   **`langgraph`:** A tool for building autonomous AI "Agents" that can loop, think, and make decisions dynamically.
 *   **`chromadb`:** A specialized "Vector Database". It is used in RAG to store our private documents as mathematical numbers so we can instantly search them for relevant context.
-*   **API Providers (`openai`, `groq`, `siliconflow`):** The libraries used to securely talk to the giant cloud models over the internet.
+*   **API Providers (`groq`):** The libraries used to securely talk to the giant cloud models over the internet.

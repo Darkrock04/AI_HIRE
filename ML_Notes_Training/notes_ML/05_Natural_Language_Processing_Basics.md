@@ -28,7 +28,7 @@ The algorithm scans all the documents and extracts every unique word to create a
 `[we, are, learning, machine, processing, natural, language, data, algorithms]`
 
 **Step 2: Transform Documents to Vectors**
-Now, the algorithm looks at each document and places a count of 1 under words that are present, and a 0 under words that aren't.
+Now, the algorithm counts the exact frequency of words in each document, placing that count under the corresponding word.
 For `Doc-1`: `[1, 1, 2, 1, 0, 0, 0, 0, 0]`
 *   Notice there is a "2" under "learning" because the word appeared twice in Doc 1.
 
