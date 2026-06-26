@@ -1,0 +1,2 @@
+# Transformers (The Heart of GenAI)
+The architecture defined in 'Attention is All You Need'. Without this module, you cannot understand LLMs. Covers Self-Attention, Positional Encoding, and Encoder/Decoder structures.

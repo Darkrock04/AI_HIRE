@@ -1,0 +1,2 @@
+# Data Preprocessing
+Before feeding data into a Machine Learning model, it must be cleaned. This module covers handling missing values, encoding categorical variables, and feature scaling (Standardization vs Normalization).

@@ -1,0 +1,2 @@
+# Tree-Based Models
+Tree-based models (Decision Trees, Random Forests, XGBoost) are the absolute best algorithms for structured tabular data. They require less preprocessing and capture complex non-linear patterns.
