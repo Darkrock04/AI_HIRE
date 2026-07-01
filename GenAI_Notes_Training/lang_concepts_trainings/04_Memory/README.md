@@ -4,6 +4,7 @@ LLMs are fundamentally stateless. Every API call is independent. If you want a c
 
 LangChain provides specialized tools to manage this history automatically.
 
-## Memory Types:
-1. **ConversationBufferMemory:** Stores every raw message exactly as it happened. Good for short chats, but rapidly consumes the LLM's token limit.
-2. **ConversationSummaryMemory:** Uses a smaller, cheaper LLM in the background to constantly summarize the conversation history, saving massive amounts of tokens.
+## How LCEL Handles Memory
+In the modern LangChain Expression Language (LCEL), we explicitly pass memory into the prompt.
+1. **`InMemoryChatMessageHistory`**: An object that stores all the Human and AI messages in a list.
+2. **`MessagesPlaceholder`**: A special variable inside your `ChatPromptTemplate` that tells the prompt exactly where to inject the conversational history list before asking the newest question.
