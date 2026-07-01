@@ -9,4 +9,4 @@ LangGraph models your application as a State Machine.
 1. **State:** A shared data structure (usually a `TypedDict`) that is passed around. Every time a node runs, it returns updates that are merged into this state.
 2. **Nodes:** Simple Python functions. A node receives the current `State`, does some work (like calling an LLM or a tool), and returns a dictionary to update the `State`.
 3. **Edges:** Hardcoded paths connecting one node to the next (e.g., Node A *always* goes to Node B).
-4. **Conditional Edges:** Dynamic routing functions. The function looks at the current `State` and decides where to go next (e.g., if there's an error, route to the "Fixer" node, otherwise route to `END`). If relevant, proceed to the Generate node).
+4. **Conditional Edges:** Dynamic routing functions. The function looks at the current `State` and decides where to go next (e.g., if there's an error, route to the "Fixer" node, otherwise route to `END`).
