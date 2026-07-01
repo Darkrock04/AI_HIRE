@@ -12,4 +12,4 @@ Hardcoding strings is bad practice. **Prompt Templates** allow you to create dyn
 - `ChatPromptTemplate`: Used for modern Chat Models. It allows you to strictly separate System instructions from Human input.
 
 ## 3. Output Parsers
-LLMs output raw text. If you are building an application, you usually need structured data (like JSON or a Python Dictionary). **Output Parsers** force the LLM to reply in a specific format and automatically parse that text into a usable Python object.
+LLMs output raw text. When building an application, you often want to extract just the final text without all the metadata, or force the LLM to reply in a specific format. **Output Parsers** (like `StrOutputParser`) take the raw LLM message object and parse it into a clean, usable format (like a plain string).
